@@ -4,7 +4,8 @@ This is a simple example of using OpenAI Agents SDK with Model Context Protocol 
 
 ## Setup
 
-1. Install uv:```bash
+1. Install uv:
+```bash
 pip install uv
 ```
 
@@ -32,11 +33,13 @@ OPENAI_API_KEY=your_openai_api_key_here
 COMPSOIO_MCP_SSE_URL=<YOUR_MCP_SERVER>
 ```
 
+Get the MCP URL from https://mcp.composio.dev
+
 ## Usage
 
 Run the agent:
 ```bash
-python agent.py
+uv run agent.py
 ```
 
 The agent will:
